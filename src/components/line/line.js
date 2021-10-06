@@ -12,6 +12,7 @@ const LineContainer = styled.div`
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    border-radius: 5px;
 `
 
 const First = styled.div`
@@ -103,7 +104,6 @@ const Line = () => {
               var percentageProfite = (currentPrice - entryPrice) / entryPrice * 100
               const profit = ((currentPrice * shares) - (entryPrice * shares)).toString().substring(0,8)
               function sendProfit(){
-                // if(profit.length > 4 || profit.length < -4){
                   if(profit > 9999 || profit < -9999){
                   const a = profit.slice(0, 2)
                   const b = profit.slice(2, 7)

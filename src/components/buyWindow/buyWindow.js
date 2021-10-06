@@ -5,7 +5,7 @@ import {db} from "../../firebase";
 
 const BuyWindowContainer = styled.div`
     z-index: 1;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;

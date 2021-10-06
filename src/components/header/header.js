@@ -31,6 +31,11 @@ const HeaderItem = styled(Link)`
     text-decoration: none;
 `
 
+const P = styled.p`
+    font-size: 1.3vw;
+    color: white;
+`
+
 const Header = () => {
     return(
     <HeaderContainer>
@@ -38,9 +43,12 @@ const Header = () => {
             Trader
         </HeaderLogo>
         <LinksContainer>
+            <P>Trader</P>
+            <P>Trader</P>
+            <P>Trader</P>
+            {/* <HeaderItem to="/">Trader</HeaderItem>
             <HeaderItem to="/">Trader</HeaderItem>
-            <HeaderItem to="/">Trader</HeaderItem>
-            <HeaderItem to="/">Trader</HeaderItem>
+            <HeaderItem to="/">Trader</HeaderItem> */}
         </LinksContainer>
     </HeaderContainer>
     )
